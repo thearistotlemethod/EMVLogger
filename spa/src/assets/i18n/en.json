@@ -1,0 +1,23 @@
+{
+  "transaction": {
+    "failed": "Transaction Failed",
+    "plswait": "Please Wait",
+    "error": "Error"
+  },
+  "button": {
+    "cancel": "CANCEL",
+    "ok": "OK",
+    "yes": "YES",
+    "no": "NO"
+  },
+  "confirmation": {
+    "title": "Confirm?",
+    "amount": "Amount:"
+  },
+  "password": {
+    "title": "Pin?",
+    "wrong": "Wrong Pin. Try again!"
+  },
+  "error": {
+  }
+}

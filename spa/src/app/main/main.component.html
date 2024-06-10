@@ -1,0 +1,28 @@
+<div class="full-height" fxLayout="column" fxLayout.xs="column" fxLayoutGap="14px">
+  <div fxFlex="5">
+
+  </div>
+  <div fxFlex="95" [ngSwitch]="dataService.mode">
+    <app-enteramount *ngSwitchCase="'amount'"></app-enteramount>
+  </div>
+
+  <div class="bSavePosition" fxLayout="column" fxLayout.xs="column" fxLayoutGap="14px">
+    <div>
+      <button mat-button 
+      (click)="onSavePressed()">
+      <mat-icon>save</mat-icon></button>
+    </div> 
+  
+    <div>
+      <button mat-button 
+      (click)="onSettingPressed()">
+      <mat-icon>settings</mat-icon></button>
+    </div>
+    
+    <div>
+      <button mat-button 
+      (click)="onHelpPressed()">
+      <mat-icon>help_outline</mat-icon></button>
+    </div>  
+  </div>
+</div>

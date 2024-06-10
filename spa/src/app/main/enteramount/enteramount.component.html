@@ -1,0 +1,30 @@
+<div fxLayout="column" fxLayoutGap="10px">
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <p class="roundedarea">{{dataService.getAmountDispStr()}}</p>
+    </div>
+    <div fxLayout="row" fxLayoutAlign="center center">
+      <div fxLayout="column" fxLayoutGap="10px">
+        <div fxLayout="row">
+          <div style="padding-right: 10px;" *ngFor="let num of ['1','2','3','4','5']">
+            <button mat-raised-button class="numberbutton" (click)="onKeyPressed(num)">{{num}}</button>
+          </div>
+        </div>
+        <div fxLayout="row">
+          <div style="padding-right: 10px;" *ngFor="let num of ['6','7','8','9','0']">
+            <button mat-raised-button class="numberbutton" (click)="onKeyPressed(num)">{{num}}</button>
+          </div>
+        </div>
+        <div fxLayout="row">
+          <div fxFlex="40" style="padding-right: 10px;">
+            <button mat-raised-button class="numberbutton" style="background: yellow;" (click)="onBackPressed()">
+              <mat-icon>arrow_back</mat-icon>
+            </button>
+          </div>
+          <div fxFlex="60" style="padding-right: 10px;">
+            <button mat-raised-button class="numberbutton" style="background: green;" (click)="onEnterPressed()">{{'button.ok' | translate}}</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

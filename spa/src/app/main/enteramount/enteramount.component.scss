@@ -1,0 +1,34 @@
+.roundedarea {
+    border-radius: .5em;
+    border-width: .15em;
+    border-style: solid;
+    background: #f8f9f6;
+    width: 350px;
+    height: 50px;
+    text-align: right; 
+    font-size: x-large;
+    font-weight: bold;
+    line-height: 50px;
+    padding-right: 5px;
+} 
+
+.numberbutton{
+    border-radius: .5em;
+    border-width: .15em;
+    border-style: solid;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    aspect-ratio : 1 / 1;
+    max-height: 150px;
+    background-color: antiquewhite;
+}
+
+.mat-divider {
+    display: block;
+    margin: 0;
+    border-top-width: .2em;
+    border-top-style: solid;
+    border-top-color: rgb(35, 34, 34);
+ }

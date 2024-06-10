@@ -1,0 +1,11 @@
+<div fxLayout="column" fxLayoutGap="10px">
+  <div fxLayoutAlign="center center">
+    <p style="font-size: x-large; font-weight: bold;">{{line1}}</p>
+  </div>
+
+  <div *ngIf="bname.length > 0" fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center center">
+    <button fxFlex="50" mat-raised-button class="numberbutton" style="background: red;"
+      (click)="onButtonPressed()">{{bname}}</button>
+  </div>
+</div>
+

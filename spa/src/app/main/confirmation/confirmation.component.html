@@ -1,0 +1,15 @@
+<div fxLayout="column" fxLayoutGap="10px">
+  <div fxLayoutAlign="center center">
+    <p style="font-size: xx-large; font-weight: bold;">{{'confirmation.title' | translate}}</p>
+  </div>
+  <div fxLayoutAlign="center center">
+  </div>
+  <div fxLayout="row" fxLayoutAlign="center center">
+    <p style="font-size: x-large; font-weight: bold;width: 30%; text-align: right;">{{'confirmation.amount' | translate}}</p>
+    <p style="font-size: x-large; font-weight: bold;width: 70%; text-align: right;">{{dataService.getAmountDispStr()}}</p>
+  </div>     
+  <div fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="center center">
+    <button fxFlex="50" mat-raised-button class="numberbutton" style="background: red;" (click)="onNoPressed()">{{'button.no' | translate}}</button>
+    <button fxFlex="50" mat-raised-button class="numberbutton" style="background: green;" (click)="onYesPressed()">{{'button.yes' | translate}}</button>
+  </div>    
+</div>

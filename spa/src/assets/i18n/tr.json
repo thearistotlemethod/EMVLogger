@@ -1,0 +1,23 @@
+{
+  "transaction": {
+    "failed": "Ödeme Başarısız",
+    "plswait": "Lütfen Bekleyiniz",
+    "error": "Hata"
+  },
+  "button": {
+    "cancel": "ÇIKIŞ",
+    "ok": "TAMAM",
+    "yes": "EVET",
+    "no": "HAYIR"
+  },
+  "confirmation": {
+    "title": "Bilgiler doğru mu?",
+    "amount": "Tutar:"
+  },
+  "password": {
+    "title": "Lütfen Pin Giriniz?",
+    "wrong": "Hatalı Pin. Tekrar Deneyiniz."
+  },
+  "error": {
+  }
+}
