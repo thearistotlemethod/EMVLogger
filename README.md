@@ -35,14 +35,13 @@ This repository contains two projects:
 
 2. Build the backend project:
    ```bash
-   cd EMVAnalyzerBackend
    dotnet build
    dotnet run
    ```
 
 3. Build the frontend project:
    ```bash
-   cd ../EMVAnalyzerFrontend
+   cd spa
    npm install
    ng serve
    ```
