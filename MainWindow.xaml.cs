@@ -58,9 +58,9 @@ namespace EMVLogger
 
         private void WebView_CoreWebView2Ready(object sender, EventArgs e)
         {
-            webView.CoreWebView2.Settings.AreDevToolsEnabled = true;
-            webView.CoreWebView2.Settings.AreDefaultContextMenusEnabled = true;
-            webView.CoreWebView2.Settings.IsGeneralAutofillEnabled = true;
+            webView.CoreWebView2.Settings.AreDevToolsEnabled = false;
+            webView.CoreWebView2.Settings.AreDefaultContextMenusEnabled = false;
+            webView.CoreWebView2.Settings.IsGeneralAutofillEnabled = false;
             webView.ZoomFactor = 0.95;
             webView.CoreWebView2.ServerCertificateErrorDetected += WebView_ServerCertificateErrorDetected;
         }
