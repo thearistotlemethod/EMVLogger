@@ -22,7 +22,7 @@ namespace EMVLogger
     /// </summary>
     public partial class App : Application
     {
-        public static string VERSION = "1.0.0";
+        public static string VERSION = "1.0.01";
         public static IConfiguration Configuration { get; set; }
         public static string httpport = "80";
         private CancellationTokenSource tokenSource = new CancellationTokenSource();

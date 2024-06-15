@@ -6,7 +6,7 @@ REM signing certificate password qaws123.
 rmdir /s /q pack
 mkdir pack
 
-set VERSNO=1.0.0
+set VERSNO=1.0.01
 REM cd ../spa
 REM ng build --configuration "production"
 cd ..
